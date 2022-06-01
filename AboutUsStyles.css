@@ -1,0 +1,230 @@
+/*Main Body */
+body{
+    margin: 0px;
+}
+
+/*Navigation Styles */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #FFC700;
+}
+
+.Left-nav{
+    display: flex;
+}
+
+.Middle-nav{
+    display: flex;
+    margin-top: 25px;
+}
+
+.Middle-Wrapper{
+    height: 50px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.Middle-Wrapper a{
+    color: grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.Middle-Wrapper :hover{
+    border-bottom : 1px solid black;
+}
+
+.Middle-Wrapper a:hover{
+    color: black;
+}
+
+.Right-nav{
+    display: flex;
+}
+
+.Right-Wrapper{
+    margin-top: 25px;
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border_bottom 0.5s;
+}
+
+.Right-Wrapper a{
+    color: grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.Right-Wrapper :hover{
+    border-bottom: 1px solid black;
+}
+
+.Right-Wrapper a:hover{
+    color: black;
+}
+
+.navigation > .Middle-nav > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.navigation > .Right-nav > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.button-nav {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 100px;
+    padding: 0;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+.button_text_nav{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    padding : 30px;
+    height: 100%;
+}
+
+/*Quick-Link Styles */
+.quick-link{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 215, 71, 0.3);
+    padding: 20px;
+}
+
+.Middle-Quick-Link{
+    display: flex;
+    margin-left: 500px;
+}
+
+.middle-word a{
+    color: black;
+}
+
+.Right-Closing-Shape{
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 25px;
+    color: grey;
+    transition: color 0.5s;
+}
+
+.Right-Closing-Shape :hover{
+    opacity: 1;
+    color: black;
+}
+
+/*Main-Text*/
+.About-Main-Text {
+    text-align: justify;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 350px;
+    height: 400px;
+    width: 800px;
+    padding: 20px;
+}
+
+.About-Main-Text > h1{
+    margin-left: 225px;
+}
+
+.Feature{
+    display: flex;
+    padding: 30px;
+    background-color: #FFC700;
+}
+
+.Feature-Word{
+    margin-left: 680px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.Easy-To-Use-Picture{
+    background: black;
+    margin-left: 250px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.Easy-To-Use-Text{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+.Chatbot-Guider-Picture{
+    background: black;
+    margin-left: 300px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.Chatbot-Guider-Text{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 260px;
+}
+
+.New-Feature-Upcoming-Picture{
+    background: black;
+    margin-left: 320px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.New-Feature-Upcoming-Text{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 230px;
+}
+
+.Meet-Our-Teams{
+    height: 400px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.Mini-button{
+    margin-left: 90%;
+    margin-top: 300px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: lightyellow;
+    color: yellow;
+}
+
+.Meta-Trademark{
+    background-color: rgba(255, 215, 71, 0.3);
+    padding: 35px;
+}
+
+.bottom-word{
+    text-align: center;
+}

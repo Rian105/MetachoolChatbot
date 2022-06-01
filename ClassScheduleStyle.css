@@ -1,0 +1,391 @@
+/*Main Body */
+body{
+    margin: 0px;
+}
+
+/*Navigation Styles */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #FFC700;
+}
+
+.Left-nav{
+    display: flex;
+}
+
+.Middle-nav{
+    display: flex;
+    margin-top: 25px;
+}
+
+.Middle-Wrapper{
+    height: 50px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.Middle-Wrapper a{
+    color: grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.Middle-Wrapper :hover{
+    border-bottom : 1px solid black;
+}
+
+.Middle-Wrapper a:hover{
+    color: black;
+}
+
+.Right-nav{
+    display: flex;
+}
+
+.Right-Wrapper{
+    margin-top: 25px;
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border_bottom 0.5s;
+}
+
+.Right-Wrapper a{
+    color: grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.Right-Wrapper :hover{
+    border-bottom: 1px solid black;
+}
+
+.Right-Wrapper a:hover{
+    color: black;
+}
+
+.navigation > .Middle-nav > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.navigation > .Right-nav > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.button-nav {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 100px;
+    padding: 0;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+.button_text_nav{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    padding : 30px;
+    height: 100%;
+}
+
+/*Quick-Link Styles */
+.quick-link{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 215, 71, 0.3);
+    padding: 20px;
+}
+
+.Middle-Quick-Link{
+    display: flex;
+    margin-left: 500px;
+}
+
+.middle-word a{
+    color: black;
+}
+
+.Right-Closing-Shape{
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 25px;
+    color: grey;
+    transition: color 0.5s;
+}
+
+.Right-Closing-Shape :hover{
+    opacity: 1;
+    color: black;
+}
+
+/*Main-Body */
+.Main-Body{
+    height: 900px;
+    padding: 10px;
+}
+
+.Title{
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.Mini-button{
+    margin-left: 90%;
+    margin-top: 100px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: lightyellow;
+    color: yellow;
+}
+
+.bottom-page{
+    
+    background-color: rgba(255, 215, 71, 0.3);
+    padding: 35px;
+}
+
+.bottom-word{
+    text-align: center;
+}
+
+/*Calendar*/
+.Schedule {
+    display: flex;
+}
+
+.Calendar{
+    width: 600px;
+    height: 159px;
+    left: 0px;
+    top: 340px;
+    padding: 20px;
+}
+
+.Calendar_title{
+    display: flex;
+}
+
+.Calendar-logo{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.Month-Year{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 30px;
+    color: #FFC700;
+}
+
+.Shifter{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 300px;
+}
+
+/*Calendar-Day*/
+
+.Day-Shape {
+    width: 600px;
+    height: 63px;
+    left: 5px;
+    top: 436px;
+    padding: 10px;
+    border-color: grey;
+    border-width: 20px;
+}
+
+.Day-Text {
+    border-color: grey;
+    background-color:lightgrey;
+    border-radius: 20px;
+    margin-right: 30px;
+    word-spacing: 59px;
+}
+
+.Row-Text{
+    display: flex;
+}
+
+.Row-1 {
+    margin-left: 12px;
+    margin-right: 59px;
+}
+
+.dif-1 {
+    color: lightgrey;
+}
+
+/*Next-Class*/
+
+.Next-Class {
+    margin-top: 37px;
+    width: 300px;
+    height: 550px;
+    left: 0px;
+    top: 340px;
+    padding: 5px;
+    background-color:#FFC700;
+    border-radius: 20px;
+}
+
+.Next-Class-Title1{
+    font-size: 30px;
+}
+
+.Next-Class-Shapes-Main{
+    display:flex;
+}
+
+.Next-Class-Shapes1{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #B55151;
+    z-index: 2;
+}
+
+.Next-Class-Shapes2{
+    
+    margin-top: 15px;
+    margin-left: 40px;
+    height: 100px;
+    width: 250px;
+    background-color: #B6E530;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+.Next-Class-Name{
+    vertical-align: 70%;
+    font-size: 17px;
+    margin-left: 50px;
+}
+
+.Next-Class-Name-Title{
+    font-size: 15px;
+    margin-left: 50px;
+
+}
+
+.Participants{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.Participants-Text-Grey{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: grey;
+    fill: grey;
+}
+
+.Date{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.Date-Picture{
+    height: 40px;
+    width: 40px;
+}
+
+.Date-Date{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.Date-Mini-Text{
+    font-size: 12px;
+}
+
+.Clock{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.Clock-Picture{
+    height: 40px;
+    width: 40px;
+}
+
+.Clock-Clock{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.Clock-Mini-Text{
+    font-size: 12px;
+}
+
+.Duration{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.Duration-Picture{
+    transform: rotate(90deg);
+    height: 40px;
+    width: 40px;
+}
+
+.Duration-Duration{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.Duration-Mini-Text{
+    font-size: 12px;
+}
+
+.Join-Class{
+    background-color: #CDDA3E;
+    margin-top: 70px;
+    margin-left: 40px;
+    height: 50px;
+    width: 180px;
+    border-radius: 100px;
+}
+
+.Join-Class-Text{
+    vertical-align:middle;
+    margin-left: 20px;
+}
+
+.Join-Class-Text-Shape{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 20px;
+}

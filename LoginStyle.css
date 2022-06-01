@@ -1,0 +1,45 @@
+/* Main Style */
+body{
+  background-color: white;
+}
+
+.Main-Login{
+  width: 650px;
+  height: 360px;
+  margin-top: 150px;
+  margin-left: 25%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.Login-Picture{
+  width: 50%;
+  background-size: cover;
+}
+
+.Login{
+  margin-top: 150px;
+  margin-left: 290px;
+  padding: 25px;
+  background: transparent;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.content{
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.validate{
+  background-color: #E5E5E5;
+  opacity: 0.4;
+}
+
+.second-button{
+  width: 170px;
+  border-radius: 5px;
+  background-color: #FFC700;
+}

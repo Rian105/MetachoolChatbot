@@ -1,0 +1,244 @@
+/*Main Body */
+body{
+    margin: 0px;
+}
+
+/*Navigation Styles */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #FFC700;
+}
+
+.Left-nav{
+    display: flex;
+}
+
+.Middle-nav{
+    display: flex;
+    margin-top: 25px;
+}
+
+.Middle-Wrapper{
+    height: 50px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.Middle-Wrapper a{
+    color: grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.Middle-Wrapper :hover{
+    border-bottom : 1px solid black;
+}
+
+.Middle-Wrapper a:hover{
+    color: black;
+}
+
+.Right-nav{
+    display: flex;
+}
+
+.Right-Wrapper{
+    margin-top: 25px;
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border_bottom 0.5s;
+}
+
+.Right-Wrapper a{
+    color: grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.Right-Wrapper :hover{
+    border-bottom: 1px solid black;
+}
+
+.Right-Wrapper a:hover{
+    color: black;
+}
+
+.navigation > .Middle-nav > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.navigation > .Right-nav > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.button-nav {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 100px;
+    padding: 0;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+.button_text_nav{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    padding : 30px;
+    height: 100%;
+}
+
+/*Quick-Link Styles */
+.quick-link{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 215, 71, 0.3);
+    padding: 20px;
+}
+
+.Middle-Quick-Link{
+    display: flex;
+    margin-left: 500px;
+}
+
+.middle-word a{
+    color: black;
+}
+
+.Right-Closing-Shape{
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 25px;
+    color: grey;
+    transition: color 0.5s;
+}
+
+.Right-Closing-Shape :hover{
+    opacity: 1;
+    color: black;
+}
+
+/*Body Main Styles */
+.Main-Word{
+    position: absolute;
+    width: 1250px;
+    height: 152px;
+    left: 139px;
+    top: 341px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 76px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.Body-Background{
+    opacity: 0.5;
+    width: 100%;
+    height: 710px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.button-word-body {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 200px;
+    padding: 0;
+    background: #FFC700;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+.button_text_word_body{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    padding : 30px;
+    height: 100%;
+}
+
+.Go-To-Chatbot{
+    margin-right: 50px;
+    text-align: right;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+.button-go-to-chatbot{
+    background: transparent;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.button__icon{
+    color: #FFC700;
+    display: inline-flex;
+    padding: 0 5px;
+    height: 100%;
+    font-size: 1.5em;
+    background: transparent;
+}
+
+/*Uder Main Body */
+.Under-Main-Body{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+    background-color: #FFC700;
+}
+
+.Left-Side{
+    margin-top: 60px;
+    margin-left: 25%;
+    height: 50%;
+    font-size: 40px;
+}
+
+.Right-Side{    
+    margin-right: 350px;
+    height: 50%;
+    font-size: 30px;
+}
+
+.bottom-page{
+    background-color: rgba(255, 215, 71, 0.3);
+    padding: 35px;
+}
+
+.bottom-word{
+    text-align: center;
+}
